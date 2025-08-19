@@ -1,5 +1,5 @@
 ---
-
+import "../styles/global.css";
 ---
 
 <html lang="en">
@@ -8,9 +8,263 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Nahuel Chaves - Full Stack Developer & DevOps Engineer</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-gray-50 min-h-screen">
+		<!-- Navigation -->
+		<nav class="bg-white shadow-sm border-b border-gray-200">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="flex justify-between h-16">
+					<div class="flex items-center space-x-8">
+						<a href="/" class="text-gray-900 hover:text-blue-600 font-medium transition-colors duration-200">
+							Home
+						</a>
+						<a href="resume" class="text-blue-600 font-medium">
+							Resume
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Main Content -->
+		<main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+			<!-- Header Section -->
+			<div class="text-center mb-16">
+				<h1 class="text-4xl font-bold text-gray-900 mb-4">Nahuel Chaves</h1>
+				<p class="text-xl text-gray-600 mb-6">Full Stack Developer & DevOps Engineer</p>
+				<div class="max-w-3xl mx-auto">
+					<p class="text-lg text-gray-700 leading-relaxed">
+						A brief summary of my professional life.
+					</p>
+				</div>
+			</div>
+
+			<!-- About Section -->
+			<section class="mb-16">
+				<div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+					<h2 class="text-2xl font-bold text-gray-900 mb-6">About Me</h2>
+					<div class="prose prose-lg max-w-none text-gray-700">
+						<p class="mb-4">
+							For the past 15 years, I have been a Full Stack developer, and since mid-2014, I developed my
+							DevOps skills. I love traveling, rock music, and primarily enjoy life with my fiance.
+						</p>
+						<p class="mb-4">
+							On a professional level, my experience goes from learning the programming basics on Fox 2.6 with
+							my father to manage a physical data center on the local government and handle multi-cloud
+							environments with Azure and Amazon AWS.
+						</p>
+						<p class="mb-6">
+							I've also been developing my Full Stack skills with many languages such as:
+						</p>
+						<div class="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6">
+							<div class="bg-blue-50 text-blue-800 px-3 py-2 rounded-md font-medium">Python</div>
+							<div class="bg-blue-50 text-blue-800 px-3 py-2 rounded-md font-medium">TypeScript</div>
+							<div class="bg-blue-50 text-blue-800 px-3 py-2 rounded-md font-medium">C#</div>
+							<div class="bg-blue-50 text-blue-800 px-3 py-2 rounded-md font-medium">Java</div>
+							<div class="bg-blue-50 text-blue-800 px-3 py-2 rounded-md font-medium">PHP</div>
+							<div class="bg-blue-50 text-blue-800 px-3 py-2 rounded-md font-medium">Elixir</div>
+						</div>
+						<p class="mb-4">and a lot of well-known frameworks.</p>
+						
+						<p class="mb-4">I can say I have experience with other aspects of technology such as:</p>
+						<ul class="space-y-2 mb-6">
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								<span>HTML and CSS for mocking UI's</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								<span>Data Storages such as <strong>SQL Server, DynamoDB, MongoDB, PostgreSQL, MySQL</strong> and its forks (mainly for querying, but I also did some installations and essential management)</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								<span>ETL Solutions like AWS Glue, PySpark, Pandas</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								<span>Analytics Solutions like Rockset, Elasticsearch</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								<span>Containers using <strong>AWS ECS, Docker, and Kubernetes</strong> for building Micro Services platforms</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								<span>Code Integration and Code Delivery using GitHub Actions, or CircleCI and Jenkins</span>
+							</li>
+						</ul>
+						
+						<p>
+							I am a constant and fast learner, always trying to improve myself, personally and
+							professionally. Also, I can't see myself working without a Team, having one pushes me to be
+							better and to teach others what I've learned, and that feels very rewarding. My native
+							language is Spanish, and I'm also fluent in English (to read, write, and talk).
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Experience Section -->
+			<section>
+				<div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+					<h2 class="text-2xl font-bold text-gray-900 mb-8">Professional Experience</h2>
+					
+					<div class="space-y-8">
+						<!-- Stealth Company -->
+						<div class="border-b border-gray-200 pb-8 last:border-b-0">
+							<div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+								<div>
+									<h3 class="text-xl font-bold text-gray-900">Stealth Company</h3>
+									<p class="text-blue-600 font-medium">Principal Engineer</p>
+								</div>
+								<div class="text-gray-600 text-sm md:text-right">
+									Apr 2020 - Currently Working
+								</div>
+							</div>
+							<p class="text-gray-700 mb-4">Relationship-driven startup for the VC industry</p>
+							
+							<div class="space-y-4">
+								<div>
+									<h4 class="font-semibold text-gray-900 mb-2">ETL:</h4>
+									<ul class="space-y-3">
+										<li>
+											<strong class="block text-gray-900">AWS Glue PySpark pipelines</strong>
+											<span class="text-gray-700">Used Glue to do ETL processes from public datasources, with PII complaint data normalization and matching to provide a single datapoint that can be broken down and tracked to its origin.</span>
+										</li>
+										<li>
+											<strong class="block text-gray-900">Nylas</strong>
+											<span class="text-gray-700">Used Nylas services to build ETL pipelines to ingest Email and Calendar data, and also match to internal entities.</span>
+										</li>
+									</ul>
+								</div>
+								
+								<div>
+									<h4 class="font-semibold text-gray-900 mb-2">Backend Stack:</h4>
+									<div class="flex flex-wrap gap-2">
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">DynamoDB</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Rockset (Analytics)</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Lambda</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">AWS Glue</span>
+									</div>
+								</div>
+								
+								<div>
+									<h4 class="font-semibold text-gray-900 mb-2">Web Stack:</h4>
+									<div class="flex flex-wrap gap-2">
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">NX.dev</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Next.js</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">React (Typescript)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Seats.io -->
+						<div class="border-b border-gray-200 pb-8 last:border-b-0">
+							<div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+								<div>
+									<h3 class="text-xl font-bold text-gray-900">Seats.io</h3>
+									<p class="text-blue-600 font-medium">FullStack</p>
+								</div>
+								<div class="text-gray-600 text-sm md:text-right">
+									Oct 2018 - Apr 2020
+								</div>
+							</div>
+							<p class="text-gray-700 mb-4">
+								Saas for building Seating Charts, its main focus is Ticketing Platforms. I worked both in the Java-based core and Typescript based frontend, as well as all the integrations in a plethora of stacks.
+							</p>
+							<div class="flex flex-wrap gap-2">
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Java</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">JS</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Node</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">PHP</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Ruby</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Python</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">React</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Angular</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">iOS</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Android</span>
+							</div>
+						</div>
+
+						<!-- Zentricx -->
+						<div class="border-b border-gray-200 pb-8 last:border-b-0">
+							<div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+								<div>
+									<h3 class="text-xl font-bold text-gray-900">Zentricx</h3>
+									<p class="text-blue-600 font-medium">DevOps - FullStack</p>
+								</div>
+								<div class="text-gray-600 text-sm md:text-right">
+									Dec 2014 - Oct 2018
+								</div>
+							</div>
+							<p class="text-gray-700 mb-4">
+								Here I managed Azure and AWS clouds for the company's clients always focusing on Customer Experience. Some environments include Docker containers, Websites, Web Applications, Mobile Backends, Databases.
+							</p>
+							<div class="space-y-4">
+								<div>
+									<h4 class="font-semibold text-gray-900 mb-2">Projects:</h4>
+									<ul class="space-y-2">
+										<li class="flex items-start">
+											<span class="text-blue-600 mr-2">•</span>
+											<span>Insurance company web application on Azure</span>
+										</li>
+										<li class="flex items-start">
+											<span class="text-blue-600 mr-2">•</span>
+											<span>Smart Cities platform with its infrastructure on AWS</span>
+										</li>
+										<li class="flex items-start">
+											<span class="text-blue-600 mr-2">•</span>
+											<span>Managing infrastructure for a multinational that needs web sites and applications deployment automation, and ensuring security with OWASP compliance</span>
+										</li>
+									</ul>
+								</div>
+								<div>
+									<h4 class="font-semibold text-gray-900 mb-2">Technologies:</h4>
+									<div class="flex flex-wrap gap-2">
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">.NET</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Entity Framework</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">SQL Server</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Docker</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Dynamics</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">SuiteCRM</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Windows Servers</span>
+										<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Linux Servers</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Valley Works -->
+						<div class="border-b border-gray-200 pb-8 last:border-b-0">
+							<div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+								<div>
+									<h3 class="text-xl font-bold text-gray-900">Valley Works</h3>
+									<p class="text-blue-600 font-medium">DevOps - FullStack</p>
+								</div>
+								<div class="text-gray-600 text-sm md:text-right">
+									Dec 2014 - Oct 2018
+								</div>
+							</div>
+							<p class="text-gray-700 mb-4">
+								I've was involved in the majority of the company's projects, for companies like:
+							</p>
+							<div class="flex flex-wrap gap-2 mb-4">
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Quadrant</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">FeeTrader</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Plantbid</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">3D Data</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Parasail Health</span>
+								<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-md text-sm">Data Guardian Pro's</span>
+							</div>
+							<p class="text-gray-700">
+								My job is to adapt to the client's needs, can be Full Stack, Backend, Frontend or DevOps, or a mixture of them. I had the freedom to try new technologies and was able to leave my mark by improving the user experience in many cases, or by teaching my co-workers to do a better job.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 	</body>
 </html>
