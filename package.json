@@ -2,8 +2,13 @@
   "name": "nahuel-website",
   "type": "module",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=11.0.0"
+  },
   "scripts": {
     "dev": "astro dev",
+    "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
